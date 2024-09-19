@@ -13,7 +13,15 @@ public class SonarTest {
 
 
     public int testJacoco2() {
-        return 10000;
+        return 1000;
+    }
+
+    public int testJacoco3() {
+        return 1000;
+    }
+
+    public int testJacoco4() {
+        return 1000;
     }
 
 }

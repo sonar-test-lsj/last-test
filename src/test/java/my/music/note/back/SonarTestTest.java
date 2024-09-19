@@ -11,7 +11,9 @@ class SonarTestTest {
 
         SonarTest test = new SonarTest();
         assertEquals(1000,test.testJacoco());
-        assertEquals(10000,test.testJacoco2());
+        assertEquals(1000,test.testJacoco2());
+        assertEquals(1000,test.testJacoco3());
+        assertEquals(1000,test.testJacoco4());
     }
 
 }
